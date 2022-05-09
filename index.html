@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/medias.css">
+    <title>Calcular IMC familiar</title>
+</head>
+<body>
+     <!--inicio-->
+    <header>
+        <div id="container">
+           <h1 id="titulo">Calcular IMC Familiar</h1>
+        </div>
+    </header>
+       
+<!--contenido-->
+    <main>
+        
+        <section class="ingreso-familiar">
+            
+            <form action="" id="form-ingreso">
+                <div class="grupo">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" class="campo" id="nombre" name="nombre" placeholder="Escriba el nombre.."  required>
+                   </div>
+                <div class="grupo"><label for="peso">Peso: </label>
+                    <input type="text" class="campo" id="peso" name="peso" placeholder="Escriba el peso.."  required></div>
+                <div class="grupo">
+                    <label for="altura">Altura: </label>
+                   <input type="text" class="campo" id="altura" name="altura" class="altura" placeholder="Escriba la altura.." required>
+           </div>
+           <button id="ingresar-persona">ingresar</button>
+            </form>
+       </section>
+
+        <section class="grupo-familiar">
+            <h2 id="grupo-titulo">Grupo Familiar</h2>
+            <table>
+                <thead>
+                    <tr class="persona">
+                        <th class="info-nombre">Nombre</th>
+                        <th class="info-peso">Peso</th>
+                        <th class="info-altura">Altura</th>
+                        <th class="info-imc">IMC</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-familiar">
+                </tbody>
+                <tfoot>
+                </tfoot>
+            </table>
+        </section>
+
+       
+
+    </main>
+<!--final-->  
+    <footer>
+       <div>
+           <h3>Autor: Gabriel Cardenas - derechos reservados &copy; 2022</h3>
+       </div>
+    </footer>
+
+    <script src="js/inicio.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>

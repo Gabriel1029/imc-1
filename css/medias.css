@@ -1,0 +1,252 @@
+/*celulares h y v*/
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+    /* cantidad */
+    .cantidad {
+        width: 80%;
+        height: 20vh;
+        margin: 0 20% 0;
+        font-size: .8rem;
+        margin: 0 auto;
+    }
+
+    #label-ingreso {
+        width: 100%;
+    }
+
+    #titulo-form {
+        margin: 1% 0;
+        font-weight: bolder;
+    }
+
+    #form-cantidad {
+        width: 100%;
+        height: 40%;
+    }
+
+    /* ingreso */
+    .ingreso-familiar {
+        width: 100%;
+        height: 30vh;
+    }
+    button {
+        height: 13%;
+        width: 5rem;
+    }
+
+    #form-ingreso {
+        height: 90%;
+    }
+
+    /*tabla*/    
+    .grupo-familiar{
+        width: 90%;
+        font-size: .8rem;
+    }
+    table{
+        width: 100%;
+        height: 30%;
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+    th,tr{
+       border: 1px solid #dddddd;
+       padding: 1%;
+       margin: 2%;
+    }
+    #promedio{
+        padding: 2%;
+    }
+    footer{
+        font-size: .8rem;
+    }
+ 
+}
+ /*tablets h y v*/
+@media only screen and (min-width:481px) and (max-width:720px){
+    .cantidad {
+        width: 80%;
+        height: 20vh;
+        margin: 0 20% 0;
+        font-size: .8rem;
+        margin: 0 auto;
+    }
+
+    #label-ingreso {
+        width: 100%;
+    }
+
+    #titulo-form {
+        margin: 5% 0;
+        font-weight: bolder;
+    }
+
+    #form-cantidad {
+        width: 100%;
+        height: 40%;
+    }
+
+    /* ingreso */
+    .ingreso-familiar {
+        width: 100%;
+        height: 30vh;
+    }
+    button {
+        height: 13%;
+        width: 5rem;
+    }
+
+    #form-ingreso {
+        height: 90%;
+        flex-direction: column;
+    }
+
+    /*tabla*/    
+    .grupo-familiar{
+        width: 90%;
+        font-size: .8rem;
+    }
+    table{
+        width: 100%;
+        height: 30%;
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+    th,tr{
+       border: 1px solid #dddddd;
+       padding: 1%;
+       margin: 2%;
+    }
+    #promedio{
+        padding: 2%;
+    }
+    footer{
+        font-size: .8rem;
+    }
+}
+
+/* portatil h y v */
+@media only screen and (min-width:721px) and (max-width:1024px){
+    .cantidad {
+        width: 80%;
+        height: 20vh;
+        margin: 0 20% 0;
+        font-size: .8rem;
+        margin: 0 auto;
+    }
+
+    #label-ingreso {
+        width: 100%;
+    }
+
+    #titulo-form {
+        margin: 5% 0;
+        font-weight: bolder;
+    }
+
+    #form-cantidad {
+        width: 100%;
+        height: 40%;
+    }
+
+    /* ingreso */
+    .ingreso-familiar {
+        width: 100%;
+        height: 30vh;
+    }
+    button {
+        height: 13%;
+        width: 5rem;
+    }
+
+    #form-ingreso {
+        height: 90%;
+        flex-direction: column;
+    }
+
+    /*tabla*/    
+    .grupo-familiar{
+        width: 90%;
+        font-size: .8rem;
+    }
+    table{
+        width: 100%;
+        height: 30%;
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+    th,tr{
+       border: 1px solid #dddddd;
+       padding: 1%;
+       margin: 2%;
+    }
+    #promedio{
+        padding: 2%;
+    }
+    footer{
+        font-size: .8rem;
+    }
+}
+
+/* computador h y v */
+@media only screen and (min-width:1025px) and (max-width:1440px){
+    .cantidad {
+        width: 80%;
+        height: 20vh;
+        margin: 0 20% 0;
+        font-size: .8rem;
+        margin: 0 auto;
+    }
+
+    #label-ingreso {
+        width: 100%;
+    }
+
+    #titulo-form {
+        margin: 5% 0;
+        font-weight: bolder;
+    }
+
+    #form-cantidad {
+        width: 100%;
+        height: 40%;
+    }
+
+    /* ingreso */
+    .ingreso-familiar {
+        width: 100%;
+        height: 30vh;
+    }
+    button {
+        height: 13%;
+        width: 5rem;
+    }
+
+    #form-ingreso {
+        height: 90%;
+        flex-direction: column;
+    }
+
+    /*tabla*/    
+    .grupo-familiar{
+        width: 90%;
+        font-size: .8rem;
+    }
+    table{
+        width: 100%;
+        height: 30%;
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+    th,tr{
+       border: 1px solid #dddddd;
+       padding: 1%;
+       margin: 2%;
+    }
+    #promedio{
+        padding: 2%;
+    }
+    footer{
+        font-size: .8rem;
+    }
+}
